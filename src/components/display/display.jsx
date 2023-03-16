@@ -1,4 +1,6 @@
 import React from 'react';
+import './display.css';
+
 
 const Display = (props) => {
     const display = props.display;
@@ -6,9 +8,8 @@ const Display = (props) => {
     
    
     return (
-        <div>
-            <h2>Display</h2>
-            <p>{display}</p>
+        <div className='display'>
+        <p className='result'>{display}</p>
         </div>
         
     );

@@ -1,0 +1,34 @@
+button {
+    background-color: #ddcc91;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 75px;
+    margin: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+button:hover {
+    background-color: #eb9760;
+}
+
+button.buttonOperator {
+    background-color: #c5a533;
+}
+
+button.buttonOperator:hover {
+    background-color: #c56d33;
+}
+
+.specialButton {
+    width: 220px;
+    background-color: #c5a533;
+}
+
+.specialButton:hover {
+    background-color: #c56d33;
+}
+
+

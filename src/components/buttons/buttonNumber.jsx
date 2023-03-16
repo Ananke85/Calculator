@@ -1,17 +1,17 @@
 import React from 'react';
+import './buttons.css';
+
 
 
 const ButtonNumber = (props) => {
     const value = props.number;
-    const setDisplay = props.setDisplay;
+    const handleNumberClick = props.handleNumberClick;
 
     return (
-         
-        <button onClick={() => setDisplay(value)}>{value}</button>
+        
+        <button className='buttonNumber' onClick={(event) => handleNumberClick(value)}>{value}</button>
            
-
-    
-    );
+        );
 };
 
 

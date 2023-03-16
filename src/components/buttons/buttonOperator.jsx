@@ -1,12 +1,14 @@
 import React from 'react';
+import './buttons.css';
+
 
 const ButtonOperator = (props) => {
     const operator = props.operation; 
-    const setDisplay = props.setDisplay;
+    const handleOperatorClick = props.handleOperatorClick;
 
     return (
-        
-        <button onClick={() => setDisplay(operator)}>{operator}</button>
+       
+        <button className='buttonOperator' onClick={(event) => handleOperatorClick(operator)}>{operator}</button>       
           
     );
 };
