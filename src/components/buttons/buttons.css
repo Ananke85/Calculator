@@ -8,6 +8,8 @@ button {
     font-family: 'Orbitron', sans-serif;
     font-size: 50px;
     color: white;
+    box-shadow: 2px 2px 10px rgba(44, 44, 44, 0.5);
+
 }
 
 button:hover {

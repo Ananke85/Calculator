@@ -19,4 +19,6 @@
   align-items: center;
   background-color: #9c85a4;
   border-radius: 30px;
+  box-shadow: 7px 7px 10px rgba(240, 228, 240, 0.7);
+
 }
