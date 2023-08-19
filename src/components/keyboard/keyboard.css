@@ -2,6 +2,7 @@
     position: relative;
     top: 20px;
     width: 500px;
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

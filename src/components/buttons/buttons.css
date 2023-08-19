@@ -2,8 +2,8 @@ button {
     background-color: #ddcc91;
     border: none;
     border-radius: 20px;
-    width: 100px;
-    height: 75px;
+    width: 80px;
+    height: 65px;
     margin: 10px;
     font-family: 'Orbitron', sans-serif;
     font-size: 50px;
@@ -23,7 +23,7 @@ button.buttonOperator:hover {
 }
 
 .specialButton {
-    width: 220px;
+    width: 175px;
     background-color: #c5a533;
 }
 

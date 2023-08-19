@@ -32,6 +32,7 @@ const Calculator = () => {
             result = Number(globalDisplay) - Number(firstNumber)
         } else if (operator === '/') {
             result = Number(globalDisplay) / Number(firstNumber)
+            result = result.toFixed(2)
         } else if (operator === '*') {
             result = Number(globalDisplay) * Number(firstNumber)
         }
@@ -54,7 +55,6 @@ const Calculator = () => {
    
     return (
         <div className='calculator'>
-            <h1>Lorena's Calculator</h1>
             <div className='calContainer'>
                 
                 <Display display={displayNumber}  />
